@@ -3,22 +3,22 @@
   "version": "0.0.1",
   "title": "Publish ZMQ message",
   "type": "flogo:activity",
-  "ref": "github.com/ckbonu/zmqpub",
+  "ref": "github.com/sniperkit/snk.fork.retgits-flogo-components/activity/zeromq/v4/pub",
   "description": "Publish a message to a ZMQ topic (v4.x)",
   "author": "Rosco Pecoltran<sniperkit@protonmail.com>",
   "input":[
     {
-      "name": "URI",
+      "name": "uri",
       "type": "string",
       "required": true
     },
     {
-      "name": "Topic",
+      "name": "topic",
       "type": "string",
       "required": true
     },
     {
-      "name": "Message",
+      "name": "message",
       "type": "string",
       "required": true
     }

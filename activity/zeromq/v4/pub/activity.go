@@ -9,9 +9,9 @@ import (
 )
 
 const (
-	ivURI     = "URI"
-	ivTopic   = "Topic"
-	ivMessage = "Message"
+	ivURI     = "uri"
+	ivTopic   = "topic"
+	ivMessage = "message"
 	ovoutput  = "output"
 )
 

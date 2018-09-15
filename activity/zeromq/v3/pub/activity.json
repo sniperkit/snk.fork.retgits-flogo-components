@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "title": "Publish ZMQ message",
   "type": "flogo:activity",
-  "ref": "github.com/ckbonu/zmqpub",
+  "ref": "github.com/sniperkit/snk.fork.retgits-flogo-components/activity/zeromq/v3/pub",
   "description": "Publish a message to a ZMQ topic (v3.x)",
   "author": "Krishna Chaitanya<krishna.c@isteer.com>",
   "input":[
