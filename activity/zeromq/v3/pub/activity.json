@@ -1,10 +1,10 @@
 {
-  "name": "KC-zmqpub",
+  "name": "ZeroMQ v3 - Publish",
   "version": "0.0.1",
-  "title": "Publish zmq message",
+  "title": "Publish ZMQ message",
   "type": "flogo:activity",
   "ref": "github.com/ckbonu/zmqpub",
-  "description": "Publish a message to a ZMQ topic",
+  "description": "Publish a message to a ZMQ topic (v3.x)",
   "author": "Krishna Chaitanya<krishna.c@isteer.com>",
   "input":[
     {
