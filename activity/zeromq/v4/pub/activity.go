@@ -9,6 +9,7 @@ import (
 )
 
 const (
+	ivService = "service"
 	ivURI     = "uri"
 	ivTopic   = "topic"
 	ivMessage = "message"
@@ -36,6 +37,8 @@ func (a *MyActivity) Metadata() *activity.Metadata {
 
 // Eval implements activity.Activity.Eval
 func (a *MyActivity) Eval(context activity.Context) (done bool, err error) {
+
+	syncServiceHost := context.GetInput(ivService).(string)
 	URI := context.GetInput(ivURI).(string)
 	Topic := context.GetInput(ivTopic).(string)
 	Message := context.GetInput(ivMessage).(string)

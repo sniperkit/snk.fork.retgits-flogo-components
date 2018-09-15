@@ -8,19 +8,28 @@
   "author": "Rosco Pecoltran<sniperkit@protonmail.com>",
   "input":[
     {
+      "name": "service",
+      "type": "string",
+      "required": true,
+      "value": "tcp://*:14444"
+    },
+    {
       "name": "uri",
       "type": "string",
-      "required": true
+      "required": true,
+      "value": "tcp:localhost:5555"
     },
     {
       "name": "topic",
       "type": "string",
-      "required": true
+      "required": true,
+      "value": "zmq.REP",
     },
     {
       "name": "message",
       "type": "string",
-      "required": true
+      "required": true,
+      "value": "testing zmq server for flogo"
     }
   ],
   "output": [

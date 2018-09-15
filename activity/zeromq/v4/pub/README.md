@@ -20,19 +20,28 @@ Inputs and Outputs:
 {
   "input":[
     {
-      "name": "URI",
+      "name": "service",
       "type": "string",
-      "required": true
+      "required": true,
+      "value": "tcp://*:14444"
     },
     {
-      "name": "Topic",
+      "name": "uri",
       "type": "string",
-      "required": true
+      "required": true,
+      "value": "tcp:localhost:5555"
     },
     {
-      "name": "Message",
+      "name": "topic",
       "type": "string",
-      "required": true
+      "required": true,
+      "value": "zmq.REP",
+    },
+    {
+      "name": "message",
+      "type": "string",
+      "required": true,
+      "value": "testing zmq server for flogo"
     }
   ],
   "output": [
@@ -46,9 +55,10 @@ Inputs and Outputs:
 ## Inputs
 | Input       | Description                                                                |
 |:------------|:---------------------------------------------------------------------------|
-| URI         | Server uri.                                                                |
-| Topic       | Topic name                                                                 |
-| Message     | Message Content                                                            |
+| service     | service                                                                    |
+| uri         | uri                                                                        |
+| topic       | Topic name                                                                 |
+| message     | Message Content                                                            |
 
 ## Ouputs
 | Output      | Description                                                                |

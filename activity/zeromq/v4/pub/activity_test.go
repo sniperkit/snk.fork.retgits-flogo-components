@@ -51,9 +51,10 @@ func TestEval(t *testing.T) {
 	tc := test.NewTestActivityContext(getActivityMetadata())
 
 	//setup attrs
-	tc.SetInput("URI", "tcp:localhost:5555")
-	tc.SetInput("Topic", "zmq.REP")
-	tc.SetInput("Message", "testing zmq server for flogo")
+	tc.SetInput("service", "tcp://*:14444")
+	tc.SetInput("uri", "tcp:localhost:5555")
+	tc.SetInput("topic", "zmq.REP")
+	tc.SetInput("message", "testing zmq server for flogo")
 	act.Eval(tc)
 	log.Printf("TestEval successful output [%d]", tc.GetOutput("output"))
 
