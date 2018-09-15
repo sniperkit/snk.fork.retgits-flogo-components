@@ -41,8 +41,7 @@ var jsonMetadata = `{
             "required": false,
             "value": 25,
             "minimum": 1,
-            "maximum": 2500,
-            "exclusiveMaximum": true,
+            "maximum": 100,
             "allowed" : [10, 25, 50, 75, 100]
         },
         {

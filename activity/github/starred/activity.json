@@ -30,8 +30,7 @@
             "required": false,
             "value": 25,
             "minimum": 1,
-            "maximum": 2500,
-            "exclusiveMaximum":true,
+            "maximum": 100,
             "allowed" : [10, 25, 50, 75, 100]
         },
         {
@@ -41,19 +40,20 @@
             "value": 1,
             "minimum": 1,
             "maximum": 2500,
-            "exclusiveMaximum": true,
             "allowed" : ["non-zero"]
         },
         {
             "name": "sort",
             "type": "string",
             "required": false,
+            "value": "updated",
             "allowed": ["created", "updated", "pushed", "full_name"]
         },
         {
             "name": "direction",
             "type": "string",
             "required": false,
+            "value": "desc",
             "allowed": ["asc", "desc"]
         }
     ],
