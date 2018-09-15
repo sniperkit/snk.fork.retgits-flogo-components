@@ -3,14 +3,14 @@ Sniperkit-Bot
 - Status: analyzed
 */
 
-package ghstarred
+package starred
 
 import (
 	"github.com/TIBCOSoftware/flogo-lib/core/activity"
 )
 
 var jsonMetadata = `{
-    "name": "ghstarred",
+    "name": "starred",
     "type": "flogo:activity",
     "ref": "github.com/sniperkit/snk.fork.retgits-flogo-components/activity/github/starred",
     "version": "0.0.1",

@@ -3,8 +3,8 @@ Sniperkit-Bot
 - Status: analyzed
 */
 
-// Package githubstarred implements activities to get GitHub starred repositories for a me/specific user.
-package ghstarred
+// Package starred implements activities to get GitHub starred repositories for a me/specific user.
+package starred
 
 import (
 	"encoding/json"
