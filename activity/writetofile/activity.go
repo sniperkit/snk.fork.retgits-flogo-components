@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Package writetofile implements a file writer for Flogo
 package writetofile
 

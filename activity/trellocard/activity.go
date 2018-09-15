@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Package trellocard implements activities to create cards in Trello
 package trellocard
 

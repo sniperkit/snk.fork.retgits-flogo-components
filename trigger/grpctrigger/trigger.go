@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Package grpctrigger implements a trigger to receive messages over gRPC.
 package grpctrigger
 

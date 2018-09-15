@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Package mashtoken implements getting a token from TIBCO Cloud Mashery
 package mashtoken
 

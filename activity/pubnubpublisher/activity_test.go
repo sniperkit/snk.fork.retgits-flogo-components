@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Package pubnubpublisher implements activities to publish messages to PubNub.
 package pubnubpublisher
 

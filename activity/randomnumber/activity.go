@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Package randomnumber generates a random number between the minimum and maximum values supplied.
 package randomnumber
 

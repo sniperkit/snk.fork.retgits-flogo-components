@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package mysqlfetch
 
 import (
@@ -9,10 +14,10 @@ import (
 	"github.com/TIBCOSoftware/flogo-lib/logger"
 
 	// Imports the MySQL package so it can be used as a driver
-	_ "github.com/go-sql-driver/mysql"
-
 	"bytes"
 	"encoding/json"
+
+	_ "github.com/go-sql-driver/mysql"
 )
 
 // log is the default logger for Project Flogo

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package awsssm
 
 import (
@@ -7,12 +12,12 @@ import (
 var jsonMetadata = `{
     "name": "amazonssm",
     "type": "flogo:activity",
-    "ref": "github.com/retgits/flogo-components/activity/awsssm",
+    "ref": "github.com/sniperkit/snk.fork.retgits-flogo-components/activity/awsssm",
     "version": "0.3.0",
     "title": "AWS SSM",
     "description": "Store and Retrieve parameters from the Parameter Store in Amazon Simple Systems Manager (SSM)",
     "author": "retgits",
-    "homepage": "https://github.com/retgits/flogo-components/tree/master/activity/awsssm",
+    "homepage": "https://github.com/sniperkit/snk.fork.retgits-flogo-components/tree/master/activity/awsssm",
     "inputs": [
         {
             "name": "action",

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Package amazonsqssend sends a message using Amazon SQS
 package amazonsqssend
 

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Package downloadfile implements a file download for Flogo
 package downloadfile
 

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Package amazonses allows the user to send emails using Amazon Simple Email Service (SES)
 package amazonses
 

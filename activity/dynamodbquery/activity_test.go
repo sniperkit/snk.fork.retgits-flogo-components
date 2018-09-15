@@ -1,4 +1,9 @@
 /*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
+/*
 Package dynamodbquery queries objects from Amazon DynamoDB
 
 

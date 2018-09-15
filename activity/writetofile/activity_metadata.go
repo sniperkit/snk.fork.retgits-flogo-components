@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package writetofile
 
 import (
@@ -7,12 +12,12 @@ import (
 var jsonMetadata = `{
     "name": "writetofile",
     "type": "flogo:activity",
-    "ref": "github.com/retgits/flogo-components/activity/writetofile",
+    "ref": "github.com/sniperkit/snk.fork.retgits-flogo-components/activity/writetofile",
     "version": "0.1.0",
     "title": "Write file",
     "description": "Write to a file",
     "author": "retgits",
-    "homepage": "https://github.com/retgits/flogo-components/tree/master/activity/writetofile",
+    "homepage": "https://github.com/sniperkit/snk.fork.retgits-flogo-components/tree/master/activity/writetofile",
     "inputs": [
         {
             "name": "filename",

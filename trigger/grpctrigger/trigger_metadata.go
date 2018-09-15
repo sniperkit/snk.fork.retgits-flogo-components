@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package grpctrigger
 
 import (
@@ -8,12 +13,12 @@ var jsonMetadata = `{
     "name": "grpctrigger",
     "type": "flogo:trigger",
     "shim": "plugin",
-    "ref": "github.com/retgits/flogo-components/trigger/grpctrigger",
+    "ref": "github.com/sniperkit/snk.fork.retgits-flogo-components/trigger/grpctrigger",
     "version": "0.2.0",
     "title": "Receive gRPC messages",
     "description": "gRPC trigger",
     "author": "retgits",
-    "homepage": "https://github.com/retgits/flogo-components/trigger/grpctrigger",
+    "homepage": "https://github.com/sniperkit/snk.fork.retgits-flogo-components/trigger/grpctrigger",
     "settings": [
         {
             "name": "tcpPort",

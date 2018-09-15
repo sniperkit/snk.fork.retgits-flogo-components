@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Package envkey implements an activity to get environment variables or the provided fallback value
 package envkey
 

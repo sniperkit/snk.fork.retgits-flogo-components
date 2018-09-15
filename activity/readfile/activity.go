@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Package readfile implements a file reader for Flogo
 package readfile
 

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package githubissues
 
 import (
@@ -7,12 +12,12 @@ import (
 var jsonMetadata = `{
     "name": "githubissues",
     "type": "flogo:activity",
-    "ref": "github.com/retgits/flogo-components/activity/githubissues",
+    "ref": "github.com/sniperkit/snk.fork.retgits-flogo-components/activity/githubissues",
     "version": "0.2.0",
     "title": "GitHub Issues",
     "description": "Get the GitHub issues assigned to an authenticated user",
     "author": "retgits",
-    "homepage": "https://github.com/retgits/flogo-components/tree/master/activity/githubissues",
+    "homepage": "https://github.com/sniperkit/snk.fork.retgits-flogo-components/tree/master/activity/githubissues",
     "inputs": [
         {
             "name": "token",

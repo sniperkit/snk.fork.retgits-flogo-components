@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package pubnubsubscriber
 
 import (
@@ -7,12 +12,12 @@ import (
 var jsonMetadata = `{
   "name": "pubnub-subscriber",
   "type": "flogo:trigger",
-  "ref": "github.com/retgits/flogo-components/trigger/pubnubsubscriber",
+  "ref": "github.com/sniperkit/snk.fork.retgits-flogo-components/trigger/pubnubsubscriber",
   "version": "0.2.0",
   "title": "Receive PubNub Messages",
   "description": "PubNub Subscriber",
   "author": "retgits",
-  "homepage": "https://github.com/retgits/flogo-components/trigger/pubnubsubscriber",
+  "homepage": "https://github.com/sniperkit/snk.fork.retgits-flogo-components/trigger/pubnubsubscriber",
   "settings":[
       {
         "name": "publishKey",

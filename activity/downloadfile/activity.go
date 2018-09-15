@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Package downloadfile implements a file download for Flogo
 package downloadfile
 
@@ -7,10 +12,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/nareix/curl"
-
 	"github.com/TIBCOSoftware/flogo-lib/core/activity"
 	"github.com/TIBCOSoftware/flogo-lib/logger"
+	"github.com/nareix/curl"
 )
 
 // Constants

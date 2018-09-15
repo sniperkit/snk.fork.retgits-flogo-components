@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Package iftttwebhook provides connectivity to IFTTT using the WebHooks service from IFTTT (https://ifttt.com/maker_webhooks)
 package iftttwebhook
 

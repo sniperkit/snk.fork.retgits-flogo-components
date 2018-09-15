@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Package commandparser implements activities to read and parse commandline arguments
 package commandparser
 

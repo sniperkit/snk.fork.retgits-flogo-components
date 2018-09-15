@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Package randomstring generates a random string consisting with the length you specify.
 package randomstring
 

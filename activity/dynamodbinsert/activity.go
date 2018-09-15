@@ -1,16 +1,20 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Package dynamodbinsert inserts an object into Amazon DynamoDB
 package dynamodbinsert
 
 import (
 	"encoding/json"
 
+	"github.com/TIBCOSoftware/flogo-lib/core/activity"
+	"github.com/TIBCOSoftware/flogo-lib/logger"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/dynamodb"
-
-	"github.com/TIBCOSoftware/flogo-lib/core/activity"
-	"github.com/TIBCOSoftware/flogo-lib/logger"
 )
 
 // Constants used by the code to represent the input and outputs of the JSON structure

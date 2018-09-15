@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Package queryparser implements an activity to parse a query string into name/value pairs
 package queryparser
 

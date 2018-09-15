@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Package amazons3 uploads or downloads files from Amazon Simple Storage Service (S3)
 package amazons3
 

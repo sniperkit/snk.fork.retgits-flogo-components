@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Package null implements an activity that does nothing. This would also be a good template to start actvity building...
 package null
 

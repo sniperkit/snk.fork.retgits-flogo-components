@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Package tomlreader implements activities to read and query TOML files
 package tomlreader
 

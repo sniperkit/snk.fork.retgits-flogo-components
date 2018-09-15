@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 //go:generate go run $GOPATH/src/github.com/TIBCOSoftware/flogo-lib/flogo/gen/gen.go $GOPATH
 package main
 
@@ -16,7 +21,8 @@ import (
 	"github.com/TIBCOSoftware/flogo-lib/engine"
 	"github.com/TIBCOSoftware/flogo-lib/flogo"
 	"github.com/TIBCOSoftware/flogo-lib/logger"
-	"github.com/retgits/flogo-components/activity/randomnumber"
+
+	"github.com/sniperkit/snk.fork.retgits-flogo-components/activity/randomnumber"
 )
 
 var (

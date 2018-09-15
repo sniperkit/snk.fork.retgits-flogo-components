@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Package awsssm stores and retrieves parameters from the Parameter Store in Amazon Simple Systems Manager (SSM)
 package awsssm
 

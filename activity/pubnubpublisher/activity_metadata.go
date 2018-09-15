@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package pubnubpublisher
 
 import (
@@ -7,12 +12,12 @@ import (
 var jsonMetadata = `{
     "name": "pubnubpublisher",
     "type": "flogo:activity",
-    "ref": "github.com/retgits/flogo-components/activity/pubnubpublisher",
+    "ref": "github.com/sniperkit/snk.fork.retgits-flogo-components/activity/pubnubpublisher",
     "version": "0.1.0",
     "title": "PubNub Publisher",
     "description": "Publish messages to PubNub",
     "author": "retgits",
-    "homepage": "https://github.com/retgits/flogo-components/tree/master/activity/pubnubpublisher",
+    "homepage": "https://github.com/sniperkit/snk.fork.retgits-flogo-components/tree/master/activity/pubnubpublisher",
     "inputs": [
         {
             "name": "publishKey",

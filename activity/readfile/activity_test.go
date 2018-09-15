@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Package readfile implements a file reader for Flogo
 package readfile
 
@@ -5,10 +10,9 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/stretchr/testify/assert"
-
 	"github.com/TIBCOSoftware/flogo-contrib/action/flow/test"
 	"github.com/TIBCOSoftware/flogo-lib/core/activity"
+	"github.com/stretchr/testify/assert"
 )
 
 var activityMetadata *activity.Metadata
@@ -81,5 +85,5 @@ func TestEvalReadExistingFile(t *testing.T) {
 
 	//check result attr
 	result := tc.GetOutput("result")
-	assert.Contains(t, result, "github.com/retgits/flogo-components/activity/readfile")
+	assert.Contains(t, result, "github.com/sniperkit/snk.fork.retgits-flogo-components/activity/readfile")
 }

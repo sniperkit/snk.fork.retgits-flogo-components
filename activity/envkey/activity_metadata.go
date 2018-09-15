@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package envkey
 
 import (
@@ -7,12 +12,12 @@ import (
 var jsonMetadata = `{
     "name": "envkey",
     "type": "flogo:activity",
-    "ref": "github.com/retgits/flogo-components/activity/envkey",
+    "ref": "github.com/sniperkit/snk.fork.retgits-flogo-components/activity/envkey",
     "version": "0.1.0",
     "title": "EnvKey",
     "description": "Get Environment Variable",
     "author": "retgits",
-    "homepage": "https://github.com/retgits/flogo-components/tree/master/activity/envkey",
+    "homepage": "https://github.com/sniperkit/snk.fork.retgits-flogo-components/tree/master/activity/envkey",
     "inputs":[
       {
         "name": "envkey",

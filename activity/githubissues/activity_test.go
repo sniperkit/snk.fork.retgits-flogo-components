@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Package githubissues implements activities to get GitHub issues
 package githubissues
 

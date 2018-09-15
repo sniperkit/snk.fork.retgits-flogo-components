@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Package pubnubsubscriber implements a trigger to receive messages from PubNub.
 package pubnubsubscriber
 

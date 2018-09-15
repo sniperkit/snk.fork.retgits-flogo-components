@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Package dynamodbinsert inserts an object into Amazon DynamoDB
 package dynamodbinsert
 

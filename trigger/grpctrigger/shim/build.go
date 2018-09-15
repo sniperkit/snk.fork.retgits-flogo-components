@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // +build example
 package main
 
@@ -90,7 +95,7 @@ func main() {
 	triggers := data["triggers"].([]interface{})
 	for _, trigger := range triggers {
 		trigger := trigger.(map[string]interface{})
-		if trigger["ref"].(string) == "github.com/retgits/flogo-components/trigger/grpctrigger" {
+		if trigger["ref"].(string) == "github.com/sniperkit/snk.fork.retgits-flogo-components/trigger/grpctrigger" {
 			settings := trigger["settings"].(map[string]interface{})
 			protoFileLocation, protoFileName = path.Split(settings["protofileLocation"].(string))
 		}
