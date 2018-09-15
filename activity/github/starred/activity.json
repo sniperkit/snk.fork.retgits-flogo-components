@@ -22,12 +22,15 @@
             "name": "per_page",
             "type": "integer",
             "required": false,
-            "allowed": ["GET", "POST", "PUT", "PATCH", "DELETE"]
+            "value":    25,
+            "allowed" : [10, 25, 50, 75, 100],
         },
         {
             "name": "page",
             "type": "integer",
-            "required": false
+            "required": false,
+            "value":    1,
+            "allowed" : ["non-zero"]
         },
         {
             "name": "sort",

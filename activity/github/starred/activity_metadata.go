@@ -32,22 +32,28 @@ var jsonMetadata = `{
         {
             "name": "per_page",
             "type": "integer",
-            "required": false
+            "required": false,
+            "value":    25,
+            "allowed" : [10, 25, 50, 75, 100],
         },
         {
             "name": "page",
             "type": "integer",
-            "required": false
+            "required": false,
+            "value":    1,
+            "allowed" : ["non-zero"]
         },
         {
             "name": "sort",
             "type": "string",
-            "required": false
+            "required": false,
+            "allowed": ["created", "updated", "pushed", "full_name"]
         },
         {
             "name": "direction",
             "type": "string",
-            "required": false
+            "required": false,
+            "allowed": ["asc", "desc"]
         }
     ],
     "outputs": [
