@@ -39,14 +39,20 @@ var jsonMetadata = `{
             "name": "per_page",
             "type": "integer",
             "required": false,
-            "value":    25,
-            "allowed" : [10, 25, 50, 75, 100],
+            "value": 25,
+            "minimum": 1,
+            "maximum": 2500,
+            "exclusiveMaximum": true,
+            "allowed" : [10, 25, 50, 75, 100]
         },
         {
             "name": "page",
             "type": "integer",
             "required": false,
-            "value":    1,
+            "value": 1,
+            "minimum": 1,
+            "maximum": 2500,
+            "exclusiveMaximum": true,
             "allowed" : ["non-zero"]
         },
         {

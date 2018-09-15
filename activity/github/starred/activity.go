@@ -16,6 +16,7 @@ import (
 
 	"github.com/google/go-github/github"
 	"golang.org/x/oauth2"
+	// "github.com/json-iterator/go"
 )
 
 // Refs:
@@ -78,6 +79,8 @@ func (a *MyActivity) Eval(context activity.Context) (done bool, err error) {
 	tc := oauth2.NewClient(ctxt, ts)
 	client := github.NewClient(tc)
 
+	// githubToken
+	// log.Infof("Github API Token
 	log.Infof("Check GitHub starred repositories for the user [%s], page=%v, per_page=%v, recursive=%b", githubUsername, githubPage, githubPerPage, githubListRecursive)
 
 	// Get all the starred repositories for me/specific user
@@ -96,7 +99,7 @@ func (a *MyActivity) Eval(context activity.Context) (done bool, err error) {
 		starsOpts.Direction = githubListDirection
 	}
 
-	stars, _, err := client.Activity.ListStarred(ctxt, false, starsOpts)
+	stars, _, err := client.Activity.ListStarred(ctxt, githubUsername, starsOpts)
 	if err != nil {
 		log.Error(err.Error())
 		return true, err
