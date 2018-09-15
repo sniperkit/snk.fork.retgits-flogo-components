@@ -9,7 +9,7 @@ package ghstarred
 // Imports
 import (
 	ctx "context"
-	"time"
+	// "time"
 
 	"github.com/TIBCOSoftware/flogo-lib/core/activity"
 	"github.com/TIBCOSoftware/flogo-lib/logger"
@@ -30,6 +30,7 @@ import (
 const (
 	ivGithubAccessToken       = "token"
 	ivGithubUsername          = "username"
+	ivGithubListRecursive     = "recursive" // default: true
 	ivGithubListOptsPage      = "page"      // default: 1, max: LinkHeader.LastPage
 	ivGithubListOptsPerPage   = "per_page"  // default: 30, max: 100
 	ivGithubListOptsSort      = "sort"      // created, updated, pushed, full_name. Default is "full_name".
@@ -63,6 +64,7 @@ func (a *MyActivity) Eval(context activity.Context) (done bool, err error) {
 	githubUsername := context.GetInput(ivGithubUsername).(string)
 	githubPage := context.GetInput(ivGithubListOptsPage).(int)
 	githubPerPage := context.GetInput(ivGithubListOptsPerPage).(int)
+	githubListRecursive := context.GetInput(ivGithubListRecursive).(bool)
 	githubListSort := context.GetInput(ivGithubListOptsSort).(string)
 	githubListDirection := context.GetInput(ivGithubListOptsDirection).(string)
 
@@ -76,7 +78,7 @@ func (a *MyActivity) Eval(context activity.Context) (done bool, err error) {
 	tc := oauth2.NewClient(ctxt, ts)
 	client := github.NewClient(tc)
 
-	log.Infof("Check GitHub starred repositories for the user [%s], page=%v, per_page=%v", githubUsername, githubPage, githubPerPage)
+	log.Infof("Check GitHub starred repositories for the user [%s], page=%v, per_page=%v, recursive=%b", githubUsername, githubPage, githubPerPage, githubListRecursive)
 
 	// Get all the starred repositories for me/specific user
 	starsOpts := &github.ActivityListStarredOptions{

@@ -30,6 +30,12 @@ var jsonMetadata = `{
             "required": false
         },
         {
+            "name": "recursive",
+            "type": "boolean",
+            "value": true,
+            "required": false
+        },
+        {
             "name": "per_page",
             "type": "integer",
             "required": false,
