@@ -5,11 +5,11 @@ Get the GitHub starred repositories for me/specific user.
 ## Installation
 
 ```bash
-flogo install github.com/retgits/flogo-components/activity/github/starred
+flogo install github.com/sniperkit/snk.fork.retgits-flogo-components/activity/github/starred
 ```
 Link for flogo web:
 ```
-https://github.com/retgits/flogo-components/activity/github/starred
+https://github.com/sniperkit/snk.fork.retgits-flogo-components/activity/github/starred
 ```
 
 ## Schema

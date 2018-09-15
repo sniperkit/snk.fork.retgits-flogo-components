@@ -17,7 +17,7 @@ var jsonMetadata = `{
     "title": "GitHub Starred Repositories",
     "description": "Get the GitHub starred repositories for me/specific user.",
     "author": "sniperkit",
-    "homepage": "https://github.com/sniperkit/snk.fork.retgits-flogo-components/tree/master/activity/github/starred",
+    "homepage": "https://github.com/sniperkit/snk.fork.retgits-flogo-components/tree/sniperkit/activity/github/starred",
     "inputs": [
         {
             "name": "token",
