@@ -17,7 +17,7 @@ const (
 )
 
 // log is the default package logger
-var flogoLogger = logger.GetLogger("activity-tibco-zmqpub")
+var log = logger.GetLogger("activity-tibco-zmqpub-v4")
 var subsExpected = 1
 
 // MyActivity is a stub for your Activity implementation
@@ -50,7 +50,7 @@ func (a *MyActivity) Eval(context activity.Context) (done bool, err error) {
 	// sync service should run at 14444 port to test the synchronization at client
 	syncservice, _ := context.NewScoket(zmq.REP)
 	defer syncservice.close()
-	syncservice.Bind("tcp://*:14444")
+	syncservice.Bind(syncServiceHost)
 
 	for i := 0; i < subsExpected; i = i + 1 {
 		syncservice.Recv(0)
@@ -67,7 +67,7 @@ func (a *MyActivity) Eval(context activity.Context) (done bool, err error) {
 		return false, err
 	}
 
-	logger.Debugf("Timestamp of the publish response: [%v]", res.Timestamp)
+	log.Debugf("Timestamp of the publish response: [%v]", res.Timestamp)
 
 	context.SetOutput(ovoutput, status.syncservice)
 	return true, nil
