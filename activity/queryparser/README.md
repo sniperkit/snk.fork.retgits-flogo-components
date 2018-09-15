@@ -6,11 +6,11 @@ Parse a query string into name/value pairs
 ## Installation
 
 ```bash
-flogo install github.com/retgits/flogo-components/activity/queryparser
+flogo install github.com/sniperkit/snk.fork.retgits-flogo-components/activity/queryparser
 ```
 Link for flogo web:
 ```
-https://github.com/retgits/flogo-components/activity/queryparser
+https://github.com/sniperkit/snk.fork.retgits-flogo-components/activity/queryparser
 ```
 
 ## Schema

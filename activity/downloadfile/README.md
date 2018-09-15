@@ -5,11 +5,11 @@ Download a file
 ## Installation
 
 ```bash
-flogo install github.com/retgits/flogo-components/activity/downloadfile
+flogo install github.com/sniperkit/snk.fork.retgits-flogo-components/activity/downloadfile
 ```
 Link for flogo web:
 ```
-https://github.com/retgits/flogo-components/activity/downloadfile
+https://github.com/sniperkit/snk.fork.retgits-flogo-components/activity/downloadfile
 ```
 
 ## Schema

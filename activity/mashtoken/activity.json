@@ -1,12 +1,12 @@
 {
     "name": "mashtoken",
     "type": "flogo:activity",
-    "ref": "github.com/retgits/flogo-components/activity/mashtoken",
+    "ref": "github.com/sniperkit/snk.fork.retgits-flogo-components/activity/mashtoken",
     "version": "0.2.0",
     "title": "Mashery Token",
     "description": "Get a Mashery Token",
     "author": "retgits",
-    "homepage": "https://github.com/retgits/flogo-components/tree/master/activity/mashtoken",
+    "homepage": "https://github.com/sniperkit/snk.fork.retgits-flogo-components/tree/master/activity/mashtoken",
     "inputs": [
         {
             "name": "username",

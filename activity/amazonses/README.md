@@ -6,11 +6,11 @@ Sends emails using Amazon Simple Email Service (SES)
 ## Installation
 
 ```bash
-flogo install github.com/retgits/flogo-components/activity/amazonses
+flogo install github.com/sniperkit/snk.fork.retgits-flogo-components/activity/amazonses
 ```
 Link for flogo web:
 ```
-https://github.com/retgits/flogo-components/activity/amazonses
+https://github.com/sniperkit/snk.fork.retgits-flogo-components/activity/amazonses
 ```
 
 ## Schema

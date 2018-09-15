@@ -5,11 +5,11 @@ Get environment variables or the provided fallback value
 ## Installation
 
 ```bash
-flogo install github.com/retgits/flogo-components/activity/envkey
+flogo install github.com/sniperkit/snk.fork.retgits-flogo-components/activity/envkey
 ```
 Link for flogo web:
 ```
-https://github.com/retgits/flogo-components/activity/envkey
+https://github.com/sniperkit/snk.fork.retgits-flogo-components/activity/envkey
 ```
 
 ## Schema

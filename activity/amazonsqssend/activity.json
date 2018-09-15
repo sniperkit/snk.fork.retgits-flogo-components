@@ -1,12 +1,12 @@
 {
     "name": "amazonsqssend",
     "type": "flogo:activity",
-    "ref": "github.com/retgits/flogo-components/activity/amazonsqssend",
+    "ref": "github.com/sniperkit/snk.fork.retgits-flogo-components/activity/amazonsqssend",
     "version": "0.2.0",
     "title": "Amazon SQS",
     "description": "Send a message using Amazon Simple Queue Service (SQS)",
     "author": "retgits",
-    "homepage": "https://github.com/retgits/flogo-components/tree/master/activity/amazonsqssend",
+    "homepage": "https://github.com/sniperkit/snk.fork.retgits-flogo-components/tree/master/activity/amazonsqssend",
     "inputs": [
         {
             "name": "awsAccessKeyID",

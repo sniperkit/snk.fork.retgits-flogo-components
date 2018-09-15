@@ -89,7 +89,7 @@
             "name": "DynamoDB Query",
             "description": "Executes a query against an Amazon DynamoDB",
             "activity": {
-              "ref": "github.com/retgits/flogo-components/activity/dynamodbquery",
+              "ref": "github.com/sniperkit/snk.fork.retgits-flogo-components/activity/dynamodbquery",
               "input": {
                 "DynamoDBTableName": "data",
                 "DynamoDBKeyConditionExpression": "itemtype = :value",

@@ -72,8 +72,8 @@ _Note that the expectedPaymentDate comes from the paymentservice app. If that ap
 ## Importing into Flogo Web
 If you want to import this flow into Flogo Web, please note there is a this is a current limitation in Flogo Web that it doesn't automatically import activities you do not have installed yet. To workaround this you can open an existing flow (or create a new flow) and import the activities using the "Install new activity" button. For this app you'll need to install:
 
-* Random Number: https://github.com/retgits/flogo-components/activity/randomnumber
-* Random String: https://github.com/retgits/flogo-components/activity/randomstring
+* Random Number: https://github.com/sniperkit/snk.fork.retgits-flogo-components/activity/randomnumber
+* Random String: https://github.com/sniperkit/snk.fork.retgits-flogo-components/activity/randomstring
 * Combine: https://github.com/jvanderl/flogo-components/activity/combine
 
 ## Nothing but Go?

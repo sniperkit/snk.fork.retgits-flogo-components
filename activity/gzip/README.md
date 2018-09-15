@@ -5,11 +5,11 @@ Read and write gzip format compressed files
 ## Installation
 
 ```bash
-flogo install github.com/retgits/flogo-components/activity/gzip
+flogo install github.com/sniperkit/snk.fork.retgits-flogo-components/activity/gzip
 ```
 Link for flogo web:
 ```
-https://github.com/retgits/flogo-components/activity/gzip
+https://github.com/sniperkit/snk.fork.retgits-flogo-components/activity/gzip
 ```
 
 ## Schema

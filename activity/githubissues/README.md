@@ -5,11 +5,11 @@ Get the GitHub issues assigned to an authenticated user
 ## Installation
 
 ```bash
-flogo install github.com/retgits/flogo-components/activity/githubissues
+flogo install github.com/sniperkit/snk.fork.retgits-flogo-components/activity/githubissues
 ```
 Link for flogo web:
 ```
-https://github.com/retgits/flogo-components/activity/githubissues
+https://github.com/sniperkit/snk.fork.retgits-flogo-components/activity/githubissues
 ```
 
 ## Schema

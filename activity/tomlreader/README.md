@@ -4,11 +4,11 @@ This activity provides your Flogo app the ability to read and query TOML files
 ## Installation
 
 ```bash
-flogo install github.com/retgits/flogo-components/activity/tomlreader
+flogo install github.com/sniperkit/snk.fork.retgits-flogo-components/activity/tomlreader
 ```
 Link for flogo web:
 ```
-https://github.com/retgits/flogo-components/activity/tomlreader
+https://github.com/sniperkit/snk.fork.retgits-flogo-components/activity/tomlreader
 ```
 
 ## Schema

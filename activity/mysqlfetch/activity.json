@@ -1,7 +1,7 @@
 {
     "name": "MySQL Fetch",
     "type": "flogo:activity",
-    "ref": "github.com/retgits/flogo-components/activity/mysqlfetch",
+    "ref": "github.com/sniperkit/snk.fork.retgits-flogo-components/activity/mysqlfetch",
     "version": "0.0.2",
     "title": "MySQL Fetch",
     "description": "Fetches data from a MySQL database",

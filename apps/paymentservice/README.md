@@ -66,8 +66,8 @@ The following result should appear:
 ## Importing into Flogo Web
 If you want to import this flow into Flogo Web, please note there is a this is a current limitation in Flogo Web that it doesn't automatically import activities you do not have installed yet. To workaround this you can open an existing flow (or create a new flow) and import the activities using the "Install new activity" button. For this app you'll need to install:
 
-* Random Number: https://github.com/retgits/flogo-components/activity/randomnumber
-* Add to Date: https://github.com/retgits/flogo-components/activity/addtodate
+* Random Number: https://github.com/sniperkit/snk.fork.retgits-flogo-components/activity/randomnumber
+* Add to Date: https://github.com/sniperkit/snk.fork.retgits-flogo-components/activity/addtodate
 
 ## Nothing but Go?
 If you want to see the same app, built with the Flogo Go API, check out the [paymentservice-go](../paymentservice-go) app

@@ -5,11 +5,11 @@ Read a file and get the content
 ## Installation
 
 ```bash
-flogo install github.com/retgits/flogo-components/activity/readfile
+flogo install github.com/sniperkit/snk.fork.retgits-flogo-components/activity/readfile
 ```
 Link for flogo web:
 ```
-https://github.com/retgits/flogo-components/activity/readfile
+https://github.com/sniperkit/snk.fork.retgits-flogo-components/activity/readfile
 ```
 
 ## Schema

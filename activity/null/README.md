@@ -6,11 +6,11 @@ An activity that does nothing... useful if you want to branch out after the trig
 ## Installation
 
 ```bash
-flogo install github.com/retgits/flogo-components/activity/null
+flogo install github.com/sniperkit/snk.fork.retgits-flogo-components/activity/null
 ```
 Link for flogo web:
 ```
-https://github.com/retgits/flogo-components/activity/null
+https://github.com/sniperkit/snk.fork.retgits-flogo-components/activity/null
 ```
 
 ## Schema

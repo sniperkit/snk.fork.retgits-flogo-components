@@ -5,11 +5,11 @@ Insert an object into Amazon DynamoDB
 ## Installation
 
 ```bash
-flogo install github.com/retgits/flogo-components/activity/dynamodbinsert
+flogo install github.com/sniperkit/snk.fork.retgits-flogo-components/activity/dynamodbinsert
 ```
 Link for flogo web:
 ```
-https://github.com/retgits/flogo-components/activity/dynamodbinsert
+https://github.com/sniperkit/snk.fork.retgits-flogo-components/activity/dynamodbinsert
 ```
 
 ## Schema

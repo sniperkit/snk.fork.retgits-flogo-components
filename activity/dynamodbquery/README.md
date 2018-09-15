@@ -5,11 +5,11 @@ Query objects from Amazon DynamoDB
 ## Installation
 
 ```bash
-flogo install github.com/retgits/flogo-components/activity/dynamodbquery
+flogo install github.com/sniperkit/snk.fork.retgits-flogo-components/activity/dynamodbquery
 ```
 Link for flogo web:
 ```
-https://github.com/retgits/flogo-components/activity/dynamodbquery
+https://github.com/sniperkit/snk.fork.retgits-flogo-components/activity/dynamodbquery
 ```
 
 ## Schema

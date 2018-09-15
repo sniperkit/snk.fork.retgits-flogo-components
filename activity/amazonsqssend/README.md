@@ -5,11 +5,11 @@ Send a message using Amazon Simple Queue Service (SQS)
 ## Installation
 
 ```bash
-flogo install github.com/retgits/flogo-components/activity/amazonsqssend
+flogo install github.com/sniperkit/snk.fork.retgits-flogo-components/activity/amazonsqssend
 ```
 Link for flogo web:
 ```
-https://github.com/retgits/flogo-components/activity/amazonsqssend
+https://github.com/sniperkit/snk.fork.retgits-flogo-components/activity/amazonsqssend
 ```
 
 ## Schema

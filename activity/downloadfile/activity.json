@@ -1,12 +1,12 @@
 {
     "name": "downloadfile",
     "type": "flogo:activity",
-    "ref": "github.com/retgits/flogo-components/activity/downloadfile",
+    "ref": "github.com/sniperkit/snk.fork.retgits-flogo-components/activity/downloadfile",
     "version": "0.1.1",
     "title": "Download file",
     "description": "Download a file.",
     "author": "retgits",
-    "homepage": "https://github.com/retgits/flogo-components/tree/master/activity/downloadfile",
+    "homepage": "https://github.com/sniperkit/snk.fork.retgits-flogo-components/tree/master/activity/downloadfile",
     "inputs": [
         {
             "name": "url",

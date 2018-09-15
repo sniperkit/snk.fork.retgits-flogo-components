@@ -5,11 +5,11 @@ This activity provides your Flogo app the ability to add a specified number of u
 ## Installation
 
 ```bash
-flogo install github.com/retgits/flogo-components/activity/addtodate
+flogo install github.com/sniperkit/snk.fork.retgits-flogo-components/activity/addtodate
 ```
 Link for flogo web:
 ```
-https://github.com/retgits/flogo-components/activity/addtodate
+https://github.com/sniperkit/snk.fork.retgits-flogo-components/activity/addtodate
 ```
 
 ## Schema

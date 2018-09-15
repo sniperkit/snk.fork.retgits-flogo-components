@@ -5,11 +5,11 @@ This activity provides your Flogo app the ability to generate a random unique nu
 ## Installation
 
 ```bash
-flogo install github.com/retgits/flogo-components/activity/randomnumber
+flogo install github.com/sniperkit/snk.fork.retgits-flogo-components/activity/randomnumber
 ```
 Link for flogo web:
 ```
-https://github.com/retgits/flogo-components/activity/randomnumber
+https://github.com/sniperkit/snk.fork.retgits-flogo-components/activity/randomnumber
 ```
 
 ## Schema

@@ -5,11 +5,11 @@ Write to a file
 ## Installation
 
 ```bash
-flogo install github.com/retgits/flogo-components/activity/writetofile
+flogo install github.com/sniperkit/snk.fork.retgits-flogo-components/activity/writetofile
 ```
 Link for flogo web:
 ```
-https://github.com/retgits/flogo-components/activity/writetofile
+https://github.com/sniperkit/snk.fork.retgits-flogo-components/activity/writetofile
 ```
 
 ## Schema

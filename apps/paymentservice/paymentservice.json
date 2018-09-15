@@ -78,7 +78,7 @@
             "name": "Random Number",
             "description": "Creates a random number between min and max",
             "activity": {
-              "ref": "github.com/retgits/flogo-components/activity/randomnumber",
+              "ref": "github.com/sniperkit/snk.fork.retgits-flogo-components/activity/randomnumber",
               "input": {
                 "min": "0",
                 "max": "10"
@@ -90,7 +90,7 @@
             "name": "Add to Date",
             "description": "Add a specified number of units to a date",
             "activity": {
-              "ref": "github.com/retgits/flogo-components/activity/addtodate",
+              "ref": "github.com/sniperkit/snk.fork.retgits-flogo-components/activity/addtodate",
               "input": {
                 "number": 0,
                 "units": "",

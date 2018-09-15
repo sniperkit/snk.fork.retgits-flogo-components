@@ -5,11 +5,11 @@ Publish messages to PubNub
 ## Installation
 
 ```bash
-flogo install github.com/retgits/flogo-components/activity/pubnubpublisher
+flogo install github.com/sniperkit/snk.fork.retgits-flogo-components/activity/pubnubpublisher
 ```
 Link for flogo web:
 ```
-https://github.com/retgits/flogo-components/activity/pubnubpublisher
+https://github.com/sniperkit/snk.fork.retgits-flogo-components/activity/pubnubpublisher
 ```
 
 ## Schema

@@ -5,11 +5,11 @@ This activity provides your Flogo app the ability to generate a random string co
 ## Installation
 
 ```bash
-flogo install github.com/retgits/flogo-components/activity/randomstring
+flogo install github.com/sniperkit/snk.fork.retgits-flogo-components/activity/randomstring
 ```
 Link for flogo web:
 ```
-https://github.com/retgits/flogo-components/activity/randomstring
+https://github.com/sniperkit/snk.fork.retgits-flogo-components/activity/randomstring
 ```
 
 ## Schema

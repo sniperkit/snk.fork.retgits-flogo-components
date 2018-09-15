@@ -6,11 +6,11 @@ Store and Retrieve parameters from the Parameter Store in Amazon Simple Systems 
 ## Installation
 
 ```bash
-flogo install github.com/retgits/flogo-components/activity/awsssm
+flogo install github.com/sniperkit/snk.fork.retgits-flogo-components/activity/awsssm
 ```
 Link for flogo web:
 ```
-https://github.com/retgits/flogo-components/activity/awsssm
+https://github.com/sniperkit/snk.fork.retgits-flogo-components/activity/awsssm
 ```
 
 ## Schema

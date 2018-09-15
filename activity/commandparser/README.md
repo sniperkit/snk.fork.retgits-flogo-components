@@ -4,11 +4,11 @@ This activity provides your Flogo app the ability to read and parse a commandlin
 ## Installation
 
 ```bash
-flogo install github.com/retgits/flogo-components/activity/commandparser
+flogo install github.com/sniperkit/snk.fork.retgits-flogo-components/activity/commandparser
 ```
 Link for flogo web:
 ```
-https://github.com/retgits/flogo-components/activity/commandparser
+https://github.com/sniperkit/snk.fork.retgits-flogo-components/activity/commandparser
 ```
 
 ## Schema

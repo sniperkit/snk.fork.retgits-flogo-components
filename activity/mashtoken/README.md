@@ -5,11 +5,11 @@ Use the TIBCO Cloud Mashery V3 API to get a login token to perform other calls
 ## Installation
 
 ```bash
-flogo install github.com/retgits/flogo-components/activity/mashtoken
+flogo install github.com/sniperkit/snk.fork.retgits-flogo-components/activity/mashtoken
 ```
 Link for flogo web:
 ```
-https://github.com/retgits/flogo-components/activity/mashtoken
+https://github.com/sniperkit/snk.fork.retgits-flogo-components/activity/mashtoken
 ```
 
 ## Schema

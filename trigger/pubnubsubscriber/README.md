@@ -5,11 +5,11 @@ Subscribe to PubNub messages
 ## Installation
 
 ```bash
-flogo install github.com/retgits/flogo-components/trigger/pubnubsubscriber
+flogo install github.com/sniperkit/snk.fork.retgits-flogo-components/trigger/pubnubsubscriber
 ```
 Link for flogo web:
 ```
-https://github.com/retgits/flogo-components/trigger/pubnubsubscriber
+https://github.com/sniperkit/snk.fork.retgits-flogo-components/trigger/pubnubsubscriber
 ```
 
 ## Schema

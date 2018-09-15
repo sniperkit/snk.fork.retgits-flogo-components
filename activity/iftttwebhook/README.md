@@ -5,11 +5,11 @@ Send webhook requests to IFTTT
 ## Installation
 
 ```bash
-flogo install github.com/retgits/flogo-components/activity/iftttwebhook
+flogo install github.com/sniperkit/snk.fork.retgits-flogo-components/activity/iftttwebhook
 ```
 Link for flogo web:
 ```
-https://github.com/retgits/flogo-components/activity/iftttwebhook
+https://github.com/sniperkit/snk.fork.retgits-flogo-components/activity/iftttwebhook
 ```
 
 ## Schema
