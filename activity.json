@@ -1,0 +1,22 @@
+{
+  "name": "executecmd",
+  "type": "flogo:activity",
+  "ref": "github.com/pawarvishal123/executecmd",
+  "version": "0.0.1",
+  "title": "Execute Command",
+  "description": "Execute Command Activity",
+  "homepage": "https://github.com/pawarvishal123/executecmd",
+  "inputs":[
+    {
+      "name": "command",
+      "type": "string",
+      "required": true
+    }
+  ],
+  "outputs": [
+    {
+      "name": "result",
+      "type": "string"
+    }
+  ]
+}
