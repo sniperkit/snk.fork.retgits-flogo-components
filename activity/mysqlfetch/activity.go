@@ -6,7 +6,9 @@ Sniperkit-Bot
 package mysqlfetch
 
 import (
+	"bytes"
 	"database/sql"
+	"encoding/json"
 	"fmt"
 	"strconv"
 
@@ -14,9 +16,6 @@ import (
 	"github.com/TIBCOSoftware/flogo-lib/logger"
 
 	// Imports the MySQL package so it can be used as a driver
-	"bytes"
-	"encoding/json"
-
 	_ "github.com/go-sql-driver/mysql"
 )
 

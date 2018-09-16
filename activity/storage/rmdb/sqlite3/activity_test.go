@@ -1,11 +1,12 @@
 package sqlitedb
 
 import (
+	"fmt"
 	"io/ioutil"
+	"testing"
+
 	"github.com/TIBCOSoftware/flogo-contrib/action/flow/test"
 	"github.com/TIBCOSoftware/flogo-lib/core/activity"
-	"log"
-	"testing"
 )
 
 var activityMetadata *activity.Metadata
@@ -31,7 +32,7 @@ func TestCreate(t *testing.T) {
 		t.Fail()
 		return
 	}
-	log.Println("TestCreate successfull")
+	fmt.Println("TestCreate successfull")
 }
 
 func TestPlain(t *testing.T) {
@@ -47,9 +48,11 @@ func TestPlain(t *testing.T) {
 	tc := test.NewTestActivityContext(getActivityMetadata())
 
 	//setup attrs
-	tc.SetInput("DBName", "foo")
-	tc.SetInput("Query", "select * from test")
-	tc.SetInput("Parameters", "")
+	tc.SetInput("database", "foo")
+	tc.SetInput("query", "select * from test")
+	tc.SetInput("parameters", "")
+	tc.SetInput("prefix_path", "~")
+
 	act.Eval(tc)
-	log.Printf("TestEval successfull.  Result [%+v] ", tc.GetOutput("Result"))
+	fmt.Printf("TestEval successfull.  Result [%+v] ", tc.GetOutput("Result"))
 }

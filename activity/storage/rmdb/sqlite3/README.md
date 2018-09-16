@@ -3,9 +3,10 @@ This activity allows you to perform create table, insert, update and delete oepr
 To build this activity on windows, gcc executable is required in PATH. MingW can be used.
 
 ## Installation
+
 ### Flogo CLI
 ```bash
-flogo install github.com/pawarvishal123/sqlitedb
+flogo install github.com/sniperkit/snk.fork.retgits-flogo-components/activity/storage/rmdb/sqlite3
 ```
 
 ## Schema
@@ -15,23 +16,29 @@ Inputs and Outputs:
 {
   "input":[
     {
-      "name": "DBName",
+      "name": "database",
       "type": "string",
       "required": true
     },
     {
-      "name": "Query",
+      "name": "query",
       "type": "string",
       "required": true
     },
     {
-      "name": "Parameters",
+      "name": "parameters",
       "type": "params"
+    },
+    {
+      "name": "prefix_path",
+      "type": "string",
+      "required": false,
+      "value": "~"
     }
   ],
   "output": [
     {
-      "name": "Result",
+      "name": "result",
       "type": "any"
     }
   ]
@@ -41,9 +48,10 @@ Inputs and Outputs:
 ## Settings
 | Setting     | Required | Description |
 |:------------|:---------|:------------|
-| DBName  | True     | The name of SQLite DB file |
-| Query       | True     | SQL statement |
-| Parameters     | False     | Parameters used in SQL statement (Please refer below sample input)|
+| database  | True     | The name of SQLite DB file |
+| query       | True     | SQL statement |
+| parameters     | False     | Parameters used in SQL statement (Please refer below sample input)|
+| prefix_path     | False     | Prefix Path for local database|
 
 ## Example Inputs
 ```json
@@ -52,13 +60,13 @@ Inputs and Outputs:
             "name": "SQLite DB Operations (2)",
             "description": "Create, insert, update & delete from SQLite DB",
             "activity": {
-              "ref": "github.com/pawarvishal123/sqlitedb",
+              "ref": "github.com/sniperkit/snk.fork.retgits-flogo-components/activity/storage/rmdb/sqlite3",
               "input": {
-                "DBName": "test2",
-                "Query": "insert into emp(id, name) values(?id, ?name)",
-                "Parameters": {
+                "database": "test2",
+                "query": "insert into emp(id, name) values(?id, ?name)",
+                "parameters": {
                   "id": "11",
-                  "name": "Vishal"
+                  "name": "SNK"
                 }
               }
             }

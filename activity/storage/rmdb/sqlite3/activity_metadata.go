@@ -1,4 +1,10 @@
-{
+package sqlitedb
+
+import (
+	"github.com/TIBCOSoftware/flogo-lib/core/activity"
+)
+
+var jsonMetadata = `{
   "name": "RMDB - Sqlite3",
   "version": "0.0.1",
   "title": "SQLite DB Operations",
@@ -34,4 +40,12 @@
       "type": "any"
     }
   ]
+}
+
+`
+
+// init create & register activity
+func init() {
+	md := activity.NewMetadata(jsonMetadata)
+	activity.Register(NewActivity(md))
 }
