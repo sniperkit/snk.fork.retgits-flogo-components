@@ -43,12 +43,12 @@ func (a *MyActivity) Eval(context activity.Context) (done bool, err error) {
 	Topic := context.GetInput(ivTopic).(string)
 	Message := context.GetInput(ivMessage).(string)
 
-	Publisher, _ := context.NewScoket(zmq.PUB)
+	Publisher, _ := context.NewSocket(zmq.PUB)
 	defer Publisher.close()
 	Publisher.Bind(URI)
 
 	// sync service should run at 14444 port to test the synchronization at client
-	syncservice, _ := context.NewScoket(zmq.REP)
+	syncservice, _ := context.NewSocket(zmq.REP)
 	defer syncservice.close()
 	syncservice.Bind(syncServiceHost)
 
