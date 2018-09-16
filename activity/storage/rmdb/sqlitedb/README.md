@@ -6,7 +6,7 @@ To build this activity on windows, gcc executable is required in PATH. MingW can
 
 ### Flogo CLI
 ```bash
-flogo install github.com/sniperkit/snk.fork.retgits-flogo-components/activity/storage/rmdb/sqlite3
+flogo install github.com/sniperkit/snk.fork.retgits-flogo-components/activity/storage/rmdb/sqlitedb
 ```
 
 ## Schema

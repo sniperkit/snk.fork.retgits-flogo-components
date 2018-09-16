@@ -9,7 +9,7 @@ var jsonMetadata = `{
   "version": "0.0.1",
   "title": "SQLite DB Operations",
   "type": "flogo:activity",
-  "ref": "github.com/sniperkit/snk.fork.retgits-flogo-components/activity/storage/rmdb/sqlite3",
+  "ref": "github.com/sniperkit/snk.fork.retgits-flogo-components/activity/storage/rmdb/sqlitedb",
   "description": "Create, insert, update & delete from SQLite DB v3.x",
   "author": "Rosco Pecoltran <sniperkit@protonmail.com>",
   "input":[
