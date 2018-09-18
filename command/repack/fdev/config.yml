@@ -1,0 +1,31 @@
+packages:
+  fgen:
+    main: github.com/retgits/fgen
+    omit-vendor-dirs: false
+  web:
+    main: github.com/retgits/flogowebhelper
+    omit-vendor-dirs: false
+  create:
+    main: github.com/TIBCOSoftware/flogo-cli/cmd/flogo
+    # distance-to-project-pkg: 2
+    omit-vendor-dirs: false
+  device:
+    main: github.com/TIBCOSoftware/flogo-cli/cmd/flogodevice
+    # distance-to-project-pkg: 2
+    omit-vendor-dirs: false
+  gen:
+    main: github.com/TIBCOSoftware/flogo-cli/cmd/flogogen
+    # distance-to-project-pkg: 2
+    omit-vendor-dirs: false
+  # nb. import collision: "github.com/sirupsen/logrus" and "github.com/Sirupsen/logrus"
+  # dio:
+  #  main: github.com/retgits/fdio
+    # omit-vendor-dirs: true
+  # nb. disabled for now as it needs to rename 'fgstate.go' to 'main.go'
+  # fgstore:
+  #  main: github.com/TIBCOSoftware/flogo-services/flow-state/cmd/fgstate
+  #  distance-to-project-pkg: 3
+  # nb. disabled for now as it needs to rename 'fgstore.go' to 'main.go'
+  # fsvc:
+  #  main: github.com/TIBCOSoftware/flogo-services/flow-store/cmd/fgstore
+  #  distance-to-project-pkg: 3

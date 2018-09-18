@@ -1,0 +1,26 @@
+packages:
+  create:
+    main: github.com/TIBCOSoftware/flogo-cli/cmd/flogo
+    distance-to-project-pkg: 3
+    # omit-vendor-dirs: true
+  device:
+    main: github.com/TIBCOSoftware/flogo-cli/cmd/flogodevice
+    distance-to-project-pkg: 3
+    # omit-vendor-dirs: true
+  gen:
+    main: github.com/TIBCOSoftware/flogo-cli/cmd/flogogen
+    distance-to-project-pkg: 3
+    # omit-vendor-dirs: true
+  play:
+    main: github.com/huytd/playgo
+  # nb. disabled for now as it needs to rename 'fgstate.go' to 'main.go'
+  # fgstore:
+  #  main: github.com/TIBCOSoftware/flogo-services/flow-state/cmd/fgstate
+  #  distance-to-project-pkg: 3
+  # nb. disabled for now as it needs to rename 'fgstore.go' to 'main.go'
+  # fsvc:
+  #  main: github.com/TIBCOSoftware/flogo-services/flow-store/cmd/fgstore
+  #  distance-to-project-pkg: 3
+  web:
+    main: github.com/retgits/flogowebhelper
+    # omit-vendor-dirs: true
