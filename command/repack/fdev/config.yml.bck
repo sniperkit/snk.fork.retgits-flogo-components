@@ -1,20 +1,22 @@
 packages:
-  create:
-    main: github.com/TIBCOSoftware/flogo-cli/cmd/flogo
-    distance-to-project-pkg: 2
-    omit-vendor-dirs: false
-  # gen:
-  #  main: github.com/TIBCOSoftware/flogo-cli/cmd/flogogen
-  #  distance-to-project-pkg: 2
-  #  omit-vendor-dirs: false
   fgen:
     main: github.com/retgits/fgen
     omit-vendor-dirs: false
-    distance-to-project-pkg: 0
   web:
     main: github.com/retgits/flogowebhelper
     omit-vendor-dirs: false
-    distance-to-project-pkg: 0
+  create:
+    main: github.com/TIBCOSoftware/flogo-cli/cmd/flogo
+    # distance-to-project-pkg: 2
+    omit-vendor-dirs: false
+  device:
+    main: github.com/TIBCOSoftware/flogo-cli/cmd/flogodevice
+    # distance-to-project-pkg: 2
+    omit-vendor-dirs: false
+  gen:
+    main: github.com/TIBCOSoftware/flogo-cli/cmd/flogogen
+    # distance-to-project-pkg: 2
+    omit-vendor-dirs: false
   # nb. import collision: "github.com/sirupsen/logrus" and "github.com/Sirupsen/logrus"
   # dio:
   #  main: github.com/retgits/fdio

@@ -21,3 +21,6 @@ dist/**
 
 *-darwin-*
 *_darwin_*
+
+command/repack/*/dist
+command/repack/*/bin

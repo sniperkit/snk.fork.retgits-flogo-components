@@ -1,12 +1,12 @@
 package amalgomated
 
 import (
-	"github.com/sniperkit/snk.fork.retgits-flogo-components/command/repack/fdev/fdev/internal/github.com/TIBCOSoftware/flogo-cli/cmd/flogodevice/amalgomated_flag"
+	"github.com/sniperkit/snk.fork.retgits-flogo-components/command/repack/fdev/fdev/internal/github.com/TIBCOSoftware/flogo-cli/amalgomated_flag"
 	"fmt"
 	"os"
 
-	"github.com/TIBCOSoftware/flogo-cli/cli"
-	"github.com/TIBCOSoftware/flogo-cli/device"
+	"github.com/sniperkit/snk.fork.retgits-flogo-components/command/repack/fdev/fdev/internal/github.com/TIBCOSoftware/flogo-cli/cli"
+	"github.com/sniperkit/snk.fork.retgits-flogo-components/command/repack/fdev/fdev/internal/github.com/TIBCOSoftware/flogo-cli/device"
 )
 
 var (

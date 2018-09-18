@@ -7,20 +7,14 @@ import (
 	"sort"
 
 	create "github.com/sniperkit/snk.fork.retgits-flogo-components/command/repack/fdev/fdev/internal/github.com/TIBCOSoftware/flogo-cli/cmd/flogo"
-	device "github.com/sniperkit/snk.fork.retgits-flogo-components/command/repack/fdev/fdev/internal/github.com/TIBCOSoftware/flogo-cli/cmd/flogodevice"
-	gen "github.com/sniperkit/snk.fork.retgits-flogo-components/command/repack/fdev/fdev/internal/github.com/TIBCOSoftware/flogo-cli/cmd/flogogen"
 	fgen "github.com/sniperkit/snk.fork.retgits-flogo-components/command/repack/fdev/fdev/internal/github.com/retgits/fgen"
 	web "github.com/sniperkit/snk.fork.retgits-flogo-components/command/repack/fdev/fdev/internal/github.com/retgits/flogowebhelper"
 )
 
 var programs = map[string]func(){"create": func() {
 	create.AmalgomatedMain()
-}, "device": func() {
-	device.AmalgomatedMain()
 }, "fgen": func() {
 	fgen.AmalgomatedMain()
-}, "gen": func() {
-	gen.AmalgomatedMain()
 }, "web": func() {
 	web.AmalgomatedMain()
 },

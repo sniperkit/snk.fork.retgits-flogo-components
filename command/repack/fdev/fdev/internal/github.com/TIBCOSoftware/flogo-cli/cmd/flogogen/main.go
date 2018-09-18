@@ -6,8 +6,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/TIBCOSoftware/flogo-cli/gen"
-	"github.com/TIBCOSoftware/flogo-cli/util"
+	"github.com/sniperkit/snk.fork.retgits-flogo-components/command/repack/fdev/fdev/internal/github.com/TIBCOSoftware/flogo-cli/gen"
+	"github.com/sniperkit/snk.fork.retgits-flogo-components/command/repack/fdev/fdev/internal/github.com/TIBCOSoftware/flogo-cli/util"
 	"path"
 )
 
